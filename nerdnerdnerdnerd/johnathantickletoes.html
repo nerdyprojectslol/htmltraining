@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Hi</title>
+
+        <script href="yes.js" type="text/javascript"></script>
+    </head>
+
+    <body>
+
+        <div id="yes">
+            <h1 id="H1" class="H1" style="top: 50%;">Hi</h1>
+        </div>
+
+        <span>
+
+        </span>
+
+        <h1 id="H1_1" style="top: 75%;" onclick="ChangeText()">Nerd</h1>
+        <h2 id="H1_2" style="top: 25%; font-size: 69px;" onclick="ChangeText()">E</h2>
+    </body>
+
+
+    <style>
+
+        body {
+            background-color:rgb(81, 148, 125);
+        }
+
+        
+        #H1, #H1_1, #H1_2 {
+            color: white;
+            position: absolute;
+            left: 50%;
+        }
+    </style>
+
+    <script>
+        function ChangeText() {
+            document.getElementById("H1_1").innerHTML = "Technoblade";
+            document.getElementById("H1_2").innerHTML = "Jonathan TickleToes the 14th";
+
+            setTimeout(function(){
+                document.getElementById("H1_1").innerHTML = "Samual SickleStones the 12th";
+                document.getElementById("H1_2").innerHTML = "Dobido Lee lee lee Lee lee Lee Lee Lee Lee Lee lee lee lee Lee Lee lee lee the 16th";
+            }, 2000)
+        }
+    </script>
+</html>
